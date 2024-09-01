@@ -1,3 +1,5 @@
+#include "PlayerbotAIConfig.h"
+
 bool PlayerbotAIConfig::LoadOculusStrategy()
 {
 #ifdef PLAYERBOT_OCULUS_STRATEGY
