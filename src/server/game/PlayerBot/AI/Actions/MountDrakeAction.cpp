@@ -1,8 +1,8 @@
-#include "../Actions/MountDrakeAction.h"
+#include "MountDrakeAction.h"
 #include "PlayerbotAI.h"
 #include "Player.h"
 
-bool MountDrakeAction::Execute(Event event)
+bool MountDrakeAction::Execute(Event event) // Change 'MountRubyDrakeAction' to 'MountDrakeAction'
 {
     uint32 drakeSpellId = GetDrakeSpellId();
 

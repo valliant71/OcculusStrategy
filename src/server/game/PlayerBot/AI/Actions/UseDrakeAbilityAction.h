@@ -10,6 +10,8 @@ class UseDrakeAbilityAction : public Action
 public:
     UseDrakeAbilityAction(PlayerbotAI* ai) : Action(ai, "use drake ability") {}
     bool Execute(Event event) override;
+private:
+    PlayerbotAI* ai; // Add this line
 };
 
 #endif
