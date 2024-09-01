@@ -10,7 +10,7 @@ class Strategy_Oculus : public Strategy
 {
 public:
     Strategy_Oculus(PlayerbotAI* ai) : Strategy(ai) {}
-    std::string getName() override { return "oculus"; } // Change 'string' to 'std::string'
+    std::string const getName() override { return "oculus"; } // Change 'string' to 'std::string'
     
     void InitTriggers(std::list<TriggerNode*> &triggers) override;
 };

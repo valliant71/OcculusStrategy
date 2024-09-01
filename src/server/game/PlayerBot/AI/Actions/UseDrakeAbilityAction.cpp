@@ -4,8 +4,8 @@
 
 bool UseDrakeAbilityAction::Execute(Event event)
 {
-    Player* bot = ai->GetBot(); // 'ai' should now be recognized
-    Unit* target = ai->GetCurrentTarget();
+    Player* bot = ai->GetBot();
+    Unit* target = ai->GetTarget(); // Change this line to use the correct method
 
     if (!target)
         return false;
